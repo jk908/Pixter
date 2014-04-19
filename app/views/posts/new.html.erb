@@ -1,0 +1,17 @@
+<div class="private-square span4 offset1">
+  
+  <h1> upload your image </h1>
+  <br/>
+  <%= simple_form_for @post do |f| %>
+  <%= f.input :title, label: 'title', placeholder: 'ex. A Sunny Day' %>  
+  <br/>
+  <%= f.input :description, label: 'what is happening?', placeholder: 'ex.The sun is shining and there are no clouds...'%>
+  <br/>
+  <%= f.button :submit, :class => 'btn btn-warning' %>
+  
+  
+  <% end %>
+  
+  
+</div>
+
