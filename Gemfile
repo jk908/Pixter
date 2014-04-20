@@ -28,6 +28,9 @@ gem 'spring',        group: :development
 
 gem "twitter-bootstrap-rails"
 gem 'simple_form'
+gem 'carrierwave'
+gem "fog", "~> 1.3.1"
+gem "figaro"
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
